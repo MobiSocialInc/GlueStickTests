@@ -1,5 +1,7 @@
-Glue Stick Test
+#Glue Stick Test
 This is a iPhone/iPad app that deploys to iOS 7.0 and iOS 7.1.  They contain a couple tests which will allow you to send some example objects to the Omlet app.  Below are relevant snippets of code.  
+
+You can find out more about Omlet here: http://www.omlet.me/index.html
 
 ##Getting this app to show up in the App Drawer
 You can follow the instructions here to get your app to show in Omlet's app drawer.
