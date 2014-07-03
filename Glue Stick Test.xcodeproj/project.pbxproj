@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB0A6521196235E70059AF36 /* GlueStick.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A6520196235E70059AF36 /* GlueStick.m */; };
+		DB0A65281963660D0059AF36 /* exampleGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB0A65261963660D0059AF36 /* exampleGif.gif */; };
+		DB0A65291963660D0059AF36 /* exampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0A65271963660D0059AF36 /* exampleImage.png */; };
+		DB0A652B196366520059AF36 /* exampleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0A652A196366520059AF36 /* exampleIcon.png */; };
+		DB1D029B195E4CF70044CF99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D029A195E4CF70044CF99 /* Foundation.framework */; };
+		DB1D029D195E4CF70044CF99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D029C195E4CF70044CF99 /* CoreGraphics.framework */; };
+		DB1D029F195E4CF70044CF99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D029E195E4CF70044CF99 /* UIKit.framework */; };
+		DB1D02A5195E4CF70044CF99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1D02A3195E4CF70044CF99 /* InfoPlist.strings */; };
+		DB1D02A7195E4CF70044CF99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D02A6195E4CF70044CF99 /* main.m */; };
+		DB1D02AB195E4CF70044CF99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D02AA195E4CF70044CF99 /* AppDelegate.m */; };
+		DB1D02AE195E4CF70044CF99 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1D02AC195E4CF70044CF99 /* Main_iPhone.storyboard */; };
+		DB1D02B1195E4CF70044CF99 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1D02AF195E4CF70044CF99 /* Main_iPad.storyboard */; };
+		DB1D02B4195E4CF70044CF99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D02B3195E4CF70044CF99 /* ViewController.m */; };
+		DB1D02B6195E4CF70044CF99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1D02B5195E4CF70044CF99 /* Images.xcassets */; };
+		DB1D02BD195E4CF70044CF99 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D02BC195E4CF70044CF99 /* XCTest.framework */; };
+		DB1D02BE195E4CF70044CF99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D029A195E4CF70044CF99 /* Foundation.framework */; };
+		DB1D02BF195E4CF70044CF99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1D029E195E4CF70044CF99 /* UIKit.framework */; };
+		DB1D02C7195E4CF70044CF99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1D02C5195E4CF70044CF99 /* InfoPlist.strings */; };
+		DB1D02C9195E4CF70044CF99 /* Glue_Stick_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1D02C8195E4CF70044CF99 /* Glue_Stick_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB1D02C0195E4CF70044CF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB1D028F195E4CF70044CF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB1D0296195E4CF70044CF99;
+			remoteInfo = "Glue Stick Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB0A651F196235E70059AF36 /* GlueStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlueStick.h; sourceTree = "<group>"; };
+		DB0A6520196235E70059AF36 /* GlueStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlueStick.m; sourceTree = "<group>"; };
+		DB0A65261963660D0059AF36 /* exampleGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = exampleGif.gif; path = Images/exampleGif.gif; sourceTree = "<group>"; };
+		DB0A65271963660D0059AF36 /* exampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exampleImage.png; path = Images/exampleImage.png; sourceTree = "<group>"; };
+		DB0A652A196366520059AF36 /* exampleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = exampleIcon.png; path = Images/exampleIcon.png; sourceTree = "<group>"; };
+		DB1D0297195E4CF70044CF99 /* Glue Stick Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glue Stick Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D029A195E4CF70044CF99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1D029C195E4CF70044CF99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1D029E195E4CF70044CF99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1D02A2195E4CF70044CF99 /* Glue Stick Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glue Stick Test-Info.plist"; sourceTree = "<group>"; };
+		DB1D02A4195E4CF70044CF99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1D02A6195E4CF70044CF99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1D02A8195E4CF70044CF99 /* Glue Stick Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glue Stick Test-Prefix.pch"; sourceTree = "<group>"; };
+		DB1D02A9195E4CF70044CF99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1D02AA195E4CF70044CF99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1D02AD195E4CF70044CF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DB1D02B0195E4CF70044CF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		DB1D02B2195E4CF70044CF99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1D02B3195E4CF70044CF99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1D02B5195E4CF70044CF99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB1D02BB195E4CF70044CF99 /* Glue Stick TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glue Stick TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1D02BC195E4CF70044CF99 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DB1D02C4195E4CF70044CF99 /* Glue Stick TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glue Stick TestTests-Info.plist"; sourceTree = "<group>"; };
+		DB1D02C6195E4CF70044CF99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1D02C8195E4CF70044CF99 /* Glue_Stick_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glue_Stick_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1D0294195E4CF70044CF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D029D195E4CF70044CF99 /* CoreGraphics.framework in Frameworks */,
+				DB1D029F195E4CF70044CF99 /* UIKit.framework in Frameworks */,
+				DB1D029B195E4CF70044CF99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1D02B8195E4CF70044CF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D02BD195E4CF70044CF99 /* XCTest.framework in Frameworks */,
+				DB1D02BF195E4CF70044CF99 /* UIKit.framework in Frameworks */,
+				DB1D02BE195E4CF70044CF99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1D028E195E4CF70044CF99 = {
+			isa = PBXGroup;
+			children = (
+				DB1D02A0195E4CF70044CF99 /* Glue Stick Test */,
+				DB1D02C2195E4CF70044CF99 /* Glue Stick TestTests */,
+				DB1D0299195E4CF70044CF99 /* Frameworks */,
+				DB1D0298195E4CF70044CF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1D0298195E4CF70044CF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D0297195E4CF70044CF99 /* Glue Stick Test.app */,
+				DB1D02BB195E4CF70044CF99 /* Glue Stick TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1D0299195E4CF70044CF99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D029A195E4CF70044CF99 /* Foundation.framework */,
+				DB1D029C195E4CF70044CF99 /* CoreGraphics.framework */,
+				DB1D029E195E4CF70044CF99 /* UIKit.framework */,
+				DB1D02BC195E4CF70044CF99 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1D02A0195E4CF70044CF99 /* Glue Stick Test */ = {
+			isa = PBXGroup;
+			children = (
+				DB0A652A196366520059AF36 /* exampleIcon.png */,
+				DB0A65261963660D0059AF36 /* exampleGif.gif */,
+				DB0A65271963660D0059AF36 /* exampleImage.png */,
+				DB0A651F196235E70059AF36 /* GlueStick.h */,
+				DB0A6520196235E70059AF36 /* GlueStick.m */,
+				DB1D02A9195E4CF70044CF99 /* AppDelegate.h */,
+				DB1D02AA195E4CF70044CF99 /* AppDelegate.m */,
+				DB1D02AC195E4CF70044CF99 /* Main_iPhone.storyboard */,
+				DB1D02AF195E4CF70044CF99 /* Main_iPad.storyboard */,
+				DB1D02B2195E4CF70044CF99 /* ViewController.h */,
+				DB1D02B3195E4CF70044CF99 /* ViewController.m */,
+				DB1D02B5195E4CF70044CF99 /* Images.xcassets */,
+				DB1D02A1195E4CF70044CF99 /* Supporting Files */,
+			);
+			path = "Glue Stick Test";
+			sourceTree = "<group>";
+		};
+		DB1D02A1195E4CF70044CF99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D02A2195E4CF70044CF99 /* Glue Stick Test-Info.plist */,
+				DB1D02A3195E4CF70044CF99 /* InfoPlist.strings */,
+				DB1D02A6195E4CF70044CF99 /* main.m */,
+				DB1D02A8195E4CF70044CF99 /* Glue Stick Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1D02C2195E4CF70044CF99 /* Glue Stick TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D02C8195E4CF70044CF99 /* Glue_Stick_TestTests.m */,
+				DB1D02C3195E4CF70044CF99 /* Supporting Files */,
+			);
+			path = "Glue Stick TestTests";
+			sourceTree = "<group>";
+		};
+		DB1D02C3195E4CF70044CF99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1D02C4195E4CF70044CF99 /* Glue Stick TestTests-Info.plist */,
+				DB1D02C5195E4CF70044CF99 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1D0296195E4CF70044CF99 /* Glue Stick Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1D02CC195E4CF70044CF99 /* Build configuration list for PBXNativeTarget "Glue Stick Test" */;
+			buildPhases = (
+				DB1D0293195E4CF70044CF99 /* Sources */,
+				DB1D0294195E4CF70044CF99 /* Frameworks */,
+				DB1D0295195E4CF70044CF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glue Stick Test";
+			productName = "Glue Stick Test";
+			productReference = DB1D0297195E4CF70044CF99 /* Glue Stick Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB1D02BA195E4CF70044CF99 /* Glue Stick TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1D02CF195E4CF70044CF99 /* Build configuration list for PBXNativeTarget "Glue Stick TestTests" */;
+			buildPhases = (
+				DB1D02B7195E4CF70044CF99 /* Sources */,
+				DB1D02B8195E4CF70044CF99 /* Frameworks */,
+				DB1D02B9195E4CF70044CF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB1D02C1195E4CF70044CF99 /* PBXTargetDependency */,
+			);
+			name = "Glue Stick TestTests";
+			productName = "Glue Stick TestTests";
+			productReference = DB1D02BB195E4CF70044CF99 /* Glue Stick TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1D028F195E4CF70044CF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = sf;
+				TargetAttributes = {
+					DB1D02BA195E4CF70044CF99 = {
+						TestTargetID = DB1D0296195E4CF70044CF99;
+					};
+				};
+			};
+			buildConfigurationList = DB1D0292195E4CF70044CF99 /* Build configuration list for PBXProject "Glue Stick Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1D028E195E4CF70044CF99;
+			productRefGroup = DB1D0298195E4CF70044CF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1D0296195E4CF70044CF99 /* Glue Stick Test */,
+				DB1D02BA195E4CF70044CF99 /* Glue Stick TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1D0295195E4CF70044CF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D02B1195E4CF70044CF99 /* Main_iPad.storyboard in Resources */,
+				DB1D02B6195E4CF70044CF99 /* Images.xcassets in Resources */,
+				DB0A65291963660D0059AF36 /* exampleImage.png in Resources */,
+				DB1D02AE195E4CF70044CF99 /* Main_iPhone.storyboard in Resources */,
+				DB0A65281963660D0059AF36 /* exampleGif.gif in Resources */,
+				DB0A652B196366520059AF36 /* exampleIcon.png in Resources */,
+				DB1D02A5195E4CF70044CF99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1D02B9195E4CF70044CF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D02C7195E4CF70044CF99 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1D0293195E4CF70044CF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D02B4195E4CF70044CF99 /* ViewController.m in Sources */,
+				DB0A6521196235E70059AF36 /* GlueStick.m in Sources */,
+				DB1D02AB195E4CF70044CF99 /* AppDelegate.m in Sources */,
+				DB1D02A7195E4CF70044CF99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1D02B7195E4CF70044CF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D02C9195E4CF70044CF99 /* Glue_Stick_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB1D02C1195E4CF70044CF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB1D0296195E4CF70044CF99 /* Glue Stick Test */;
+			targetProxy = DB1D02C0195E4CF70044CF99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB1D02A3195E4CF70044CF99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1D02A4195E4CF70044CF99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB1D02AC195E4CF70044CF99 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1D02AD195E4CF70044CF99 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1D02AF195E4CF70044CF99 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1D02B0195E4CF70044CF99 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1D02C5195E4CF70044CF99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1D02C6195E4CF70044CF99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1D02CA195E4CF70044CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1D02CB195E4CF70044CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1D02CD195E4CF70044CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glue Stick Test/Glue Stick Test-Prefix.pch";
+				INFOPLIST_FILE = "Glue Stick Test/Glue Stick Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB1D02CE195E4CF70044CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glue Stick Test/Glue Stick Test-Prefix.pch";
+				INFOPLIST_FILE = "Glue Stick Test/Glue Stick Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB1D02D0195E4CF70044CF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glue Stick Test.app/Glue Stick Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glue Stick Test/Glue Stick Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glue Stick TestTests/Glue Stick TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DB1D02D1195E4CF70044CF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Glue Stick Test.app/Glue Stick Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glue Stick Test/Glue Stick Test-Prefix.pch";
+				INFOPLIST_FILE = "Glue Stick TestTests/Glue Stick TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1D0292195E4CF70044CF99 /* Build configuration list for PBXProject "Glue Stick Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D02CA195E4CF70044CF99 /* Debug */,
+				DB1D02CB195E4CF70044CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1D02CC195E4CF70044CF99 /* Build configuration list for PBXNativeTarget "Glue Stick Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D02CD195E4CF70044CF99 /* Debug */,
+				DB1D02CE195E4CF70044CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1D02CF195E4CF70044CF99 /* Build configuration list for PBXNativeTarget "Glue Stick TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1D02D0195E4CF70044CF99 /* Debug */,
+				DB1D02D1195E4CF70044CF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1D028F195E4CF70044CF99 /* Project object */;
+}
