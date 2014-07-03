@@ -63,7 +63,7 @@ RichDeepLink* rdl = [RichDeepLink new];
 
 rdl.noun = @"glue stick test";
 rdl.displayTitle = @"Glue Stick Test";
-rdl.displayText = @"Click here to run the Glue Stick tests.  Glue Stick is a tool for native iOS apps to     integrate with Omlet Chat!";
+rdl.displayText = @"Click here to run the Glue Stick tests.  Glue Stick is a tool for native iOS apps to integrate with Omlet Chat!";
 rdl.displayThumbnail = exampleImage;
 rdl.thumbnailData = UIImagePNGRepresentation(exampleImage);
 rdl.displayCaption = @"A native iOS app";
