@@ -68,12 +68,12 @@
         return;
     }
     
-    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
-    
     UIPasteboard* pb = [UIPasteboard generalPasteboard];
     UIImage* exampleImage = [UIImage imageNamed:@"exampleImage.png"];
     [pb setImage: exampleImage];
 
+    
+    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
     if( returnURL )
     {
         [[UIApplication sharedApplication] openURL:returnURL];
@@ -98,15 +98,12 @@
         return;
     }
     
-    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
-    
     UIPasteboard* pb = [UIPasteboard generalPasteboard];
-    NSError* error = nil;
-    
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"exampleGif" ofType:@"gif"];
-    NSData* exampleGif = [NSData dataWithContentsOfFile:filePath options: 0 error: &error];
+    NSData* exampleGif = [NSData dataWithContentsOfFile:filePath];
     [pb setData:exampleGif forPasteboardType:@"com.compuserve.gif"];
     
+    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
     if( returnURL )
     {
         [[UIApplication sharedApplication] openURL:returnURL];
@@ -131,8 +128,6 @@
         return;
     }
     
-    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
-    
     UIImage* exampleImage = [UIImage imageNamed:@"exampleIcon.png"];
     
     RichDeepLink* rdl = [RichDeepLink new];
@@ -149,6 +144,8 @@
     
     [GlueStick putPasteboardRDL: rdl];
 
+    
+    NSURL* returnURL = [((AppDelegate*)[UIApplication sharedApplication].delegate) callbackURLForSourceApp];
     if( returnURL )
     {
         [[UIApplication sharedApplication] openURL:returnURL];
